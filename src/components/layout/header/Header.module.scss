@@ -1,0 +1,20 @@
+.Header {
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			h1 {
+				display: inline;
+				background: var(
+					--2,
+					linear-gradient(97deg, #01083e 12.04%, #c8dd08f1 81.84%)
+				);
+				background-clip: text;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+	}
+}
